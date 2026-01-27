@@ -1,0 +1,20 @@
+.carousel-item {
+    position: relative;
+}
+.bottom-left {
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+    text-align: left;
+}
+.carousel-image {
+    height: 500px;
+    object-fit: cover;
+}
+.card-title-blue {
+    color: #000080;
+}
+.card-image {
+    height: 200px;
+    object-fit: cover;
+}

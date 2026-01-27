@@ -1,0 +1,531 @@
+/* ===== VARIABLES ===== */
+:root {
+    --primary-color: #000080;
+    --secondary-color: #2c7bb6;
+    --accent-color: #e63946;
+    --light-color: #f8f9fa;
+    --white: #ffffff;
+    --text-color: #333333;
+    --text-light: #666666;
+    --border-color: #dee2e6;
+    --box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+    --transition: all 0.3s ease;
+}
+
+/* ===== SECCIÓN AVISO DE PRIVACIDAD ===== */
+.privacy.section-bg {
+    padding: 80px 0;
+    background: var(--white);
+}
+
+.privacy .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 3rem;
+    position: relative;
+}
+
+.section-title h2 {
+    font-size: 2.5rem;
+    color: var(--primary-color);
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+.section-title h2::after {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80px;
+    height: 3px;
+    background-color: var(--primary-color);
+}
+
+/* ===== LAYOUT PRINCIPAL - PANTALLA DIVIDIDA ===== */
+.privacy-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+    align-items: start;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.privacy-info {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+/* ===== SECCIÓN FINALIDADES ===== */
+.finalidades-section {
+    background: var(--white);
+    padding: 2.5rem;
+    border-radius: 15px;
+    box-shadow: var(--box-shadow);
+    border-left: 5px solid var(--primary-color);
+}
+
+.subsection-title {
+    margin-bottom: 2rem;
+    position: relative;
+    padding-bottom: 1rem;
+}
+
+.subsection-title h3 {
+    font-size: 1.6rem;
+    color: var(--primary-color);
+    display: inline-block;
+}
+
+.subsection-title h3::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 50px;
+    height: 3px;
+    background-color: var(--primary-color);
+}
+
+.detail-item {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 1.5rem;
+    padding: 1.5rem;
+    background: var(--light-color);
+    border-radius: 10px;
+    transition: var(--transition);
+}
+
+.detail-item:hover {
+    transform: translateX(5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.detail-item i {
+    color: var(--primary-color);
+    font-size: 1.3rem;
+    margin-right: 1.5rem;
+    margin-top: 0.2rem;
+    flex-shrink: 0;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 51, 102, 0.1);
+    border-radius: 50%;
+}
+
+.detail-content h4 {
+    margin-bottom: 0.5rem;
+    color: var(--primary-color);
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+.detail-content p {
+    color: var(--text-color);
+    margin: 0;
+    line-height: 1.5;
+}
+
+.highlight-box {
+    background: rgba(0, 51, 102, 0.08);
+    padding: 1.2rem;
+    border-radius: 8px;
+    border-left: 4px solid var(--primary-color);
+    margin-top: 0.8rem;
+}
+
+.highlight-box p {
+    color: var(--primary-color);
+    font-weight: 500;
+    margin: 0;
+    font-size: 1rem;
+    line-height: 1.4;
+}
+
+.highlight-box p + p {
+    margin-top: 0.5rem;
+}
+
+/* ===== SECCIÓN DATOS PERSONALES ===== */
+.datos-section {
+    background: var(--white);
+    padding: 2.5rem;
+    border-radius: 15px;
+    box-shadow: var(--box-shadow);
+    border-right: 5px solid var(--primary-color);
+}
+
+.datos-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+.dato-item {
+    text-align: center;
+    padding: 2rem 1rem;
+    background: var(--light-color);
+    border-radius: 12px;
+    box-shadow: var(--box-shadow);
+    transition: var(--transition);
+    border: 2px solid transparent;
+    position: relative;
+    overflow: hidden;
+}
+
+.dato-item::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background: var(--primary-color);
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+}
+
+.dato-item:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+    border-color: var(--primary-color);
+}
+
+.dato-item:hover::before {
+    transform: scaleX(1);
+}
+
+.dato-item i {
+    font-size: 2.2rem;
+    color: var(--primary-color);
+    margin-bottom: 1.2rem;
+    background: rgba(0, 51, 102, 0.1);
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: var(--transition);
+}
+
+.dato-item:hover i {
+    background: var(--primary-color);
+    color: var(--white);
+    transform: scale(1.1);
+}
+
+.dato-item h4 {
+    color: var(--primary-color);
+    margin-bottom: 0.8rem;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+.dato-item p {
+    color: var(--text-light);
+    margin: 0;
+    font-size: 0.9rem;
+    line-height: 1.4;
+}
+
+/* ===== SECCIÓN TRANSFERENCIAS Y MODIFICACIONES ===== */
+.info-adicional-section {
+    background: var(--white);
+    padding: 2.5rem;
+    border-radius: 15px;
+    box-shadow: var(--box-shadow);
+}
+
+.info-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+.info-item {
+    padding: 2rem;
+    background: var(--light-color);
+    border-radius: 12px;
+    text-align: center;
+    transition: var(--transition);
+    border: 2px solid transparent;
+}
+
+.info-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+    border-color: var(--primary-color);
+}
+
+.info-item.premium {
+    background: linear-gradient(
+        135deg,
+        rgba(0, 51, 102, 0.1) 0%,
+        rgba(0, 51, 102, 0.05) 100%
+    );
+    border: 2px solid var(--primary-color);
+}
+
+.info-item h4 {
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.info-item ul {
+    list-style: none;
+    text-align: left;
+    margin-bottom: 1.5rem;
+}
+
+.info-item li {
+    margin-bottom: 0.5rem;
+    padding-left: 1.5rem;
+    position: relative;
+    color: var(--text-color);
+    line-height: 1.5;
+}
+
+.info-item li:before {
+    content: "✓";
+    position: absolute;
+    left: 0;
+    color: var(--primary-color);
+    font-weight: bold;
+}
+
+/* ===== SECCIÓN DERECHOS ARCO ===== */
+.arco-section {
+    background: var(--white);
+    padding: 2.5rem;
+    border-radius: 15px;
+    box-shadow: var(--box-shadow);
+    height: fit-content;
+    position: sticky;
+    top: 100px;
+}
+
+.arco-section .subsection-title {
+    text-align: center;
+}
+
+.arco-section .subsection-title p {
+    color: var(--text-light);
+    margin-top: 0.5rem;
+    font-size: 1rem;
+}
+
+/* Botón específico para la sección de derechos ARCO */
+.arco-section .cta-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.8rem;
+    background-color: var(--primary-color);
+    color: var(--white);
+    padding: 15px 35px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: var(--transition);
+    border: 2px solid var(--primary-color);
+    width: 100%;
+    text-align: center;
+    font-size: 1.1rem;
+    margin-bottom: 1.5rem;
+}
+
+.arco-section .cta-button:hover {
+    background-color: transparent;
+    color: var(--primary-color);
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(0, 51, 102, 0.2);
+}
+
+.arco-section .cta-button i {
+    font-size: 1.2rem;
+}
+
+.arco-section p {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: var(--text-light);
+    line-height: 1.6;
+}
+
+/* ===== SECCIÓN CONTACTO ===== */
+.contacto-section {
+    background: var(--white);
+    padding: 2.5rem;
+    border-radius: 15px;
+    box-shadow: var(--box-shadow);
+    margin-top: 2rem;
+    text-align: center;
+    border-top: 5px solid var(--primary-color);
+}
+
+/* ===== ANIMACIONES ===== */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.detail-item,
+.dato-item,
+.info-item {
+    animation: fadeInUp 0.6s ease-out;
+}
+
+/* Animaciones escalonadas */
+.detail-item:nth-child(1) {
+    animation-delay: 0.1s;
+}
+.detail-item:nth-child(2) {
+    animation-delay: 0.2s;
+}
+.detail-item:nth-child(3) {
+    animation-delay: 0.3s;
+}
+
+.dato-item:nth-child(1) {
+    animation-delay: 0.1s;
+}
+.dato-item:nth-child(2) {
+    animation-delay: 0.2s;
+}
+
+.info-item:nth-child(1) {
+    animation-delay: 0.1s;
+}
+.info-item:nth-child(2) {
+    animation-delay: 0.2s;
+}
+
+/* ===== RESPONSIVE DESIGN ===== */
+@media (max-width: 1024px) {
+    .privacy-content {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+
+    .arco-section {
+        position: static;
+        order: -1;
+    }
+}
+
+@media (max-width: 768px) {
+    .privacy.section-bg {
+        padding: 60px 0;
+    }
+
+    .section-title h2 {
+        font-size: 2rem;
+    }
+
+    .finalidades-section,
+    .datos-section,
+    .info-adicional-section,
+    .arco-section,
+    .contacto-section {
+        padding: 2rem;
+    }
+
+    .subsection-title h3 {
+        font-size: 1.4rem;
+    }
+
+    .datos-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+    }
+
+    .info-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .detail-item {
+        flex-direction: column;
+        text-align: center;
+        padding: 1.5rem;
+    }
+
+    .detail-item i {
+        margin-right: 0;
+        margin-bottom: 1rem;
+    }
+
+    .dato-item {
+        padding: 1.5rem 1rem;
+    }
+
+    .dato-item i {
+        width: 60px;
+        height: 60px;
+        line-height: 60px;
+        font-size: 1.8rem;
+    }
+
+    .arco-section .cta-button {
+        padding: 12px 20px;
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .datos-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .finalidades-section,
+    .datos-section,
+    .info-adicional-section,
+    .arco-section,
+    .contacto-section {
+        padding: 1.5rem;
+    }
+
+    .section-title h2 {
+        font-size: 1.8rem;
+    }
+
+    .subsection-title h3 {
+        font-size: 1.3rem;
+    }
+
+    .detail-content h4 {
+        font-size: 1rem;
+    }
+
+    .dato-item {
+        padding: 1.5rem 1rem;
+    }
+
+    .info-item {
+        padding: 1.5rem;
+    }
+}

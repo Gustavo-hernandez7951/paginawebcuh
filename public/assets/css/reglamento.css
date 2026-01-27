@@ -1,0 +1,30 @@
+.text-white {
+    color: #ffffff !important;
+}
+.shadow-lg {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
+.rounded {
+    border-radius: 0.3rem;
+}
+.embed-responsive {
+    position: relative;
+    display: block;
+    width: 100%;
+    padding: 0;
+    overflow: hidden;
+}
+.embed-responsive::before {
+    content: "";
+    display: block;
+    padding-top: 56.25%;
+}
+.embed-responsive iframe {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}

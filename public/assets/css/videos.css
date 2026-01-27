@@ -1,0 +1,235 @@
+    /* Estilos para el carrusel de videos */
+    #carrusel-cuh-container {
+        padding: 60px 20px;
+        background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+    }
+
+    .video-swiper {
+        width: 100%;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    .tarjeta-moderna {
+        display: flex;
+        background: white;
+        border-radius: 15px;
+        overflow: hidden;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        min-height: 400px;
+        margin: 20px;
+    }
+
+    .contenido {
+        flex: 1;
+        padding: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background: #fff;
+    }
+
+    .contenido h1 {
+        color: #2c3e50;
+        margin-bottom: 15px;
+        font-size: 2rem;
+    }
+
+    .contenido h4 {
+        color: #3498db;
+        margin-bottom: 20px;
+        font-size: 1.2rem;
+    }
+
+    .contenido p {
+        color: #555;
+        line-height: 1.6;
+        margin-bottom: 25px;
+        font-size: 1rem;
+    }
+
+    .categoria {
+        color: #2327e6;
+        font-size: 1.1em;
+    }
+
+    .meta-info {
+        margin-top: auto;
+        padding-top: 20px;
+        border-top: 1px solid #eee;
+    }
+
+    .fecha {
+        display: block;
+        color: #27ae60;
+        font-weight: bold;
+        margin-bottom: 10px;
+        font-size: 1rem;
+    }
+
+    .enlace {
+        display: inline-block;
+        background: #3498db;
+        color: white;
+        padding: 10px 20px;
+        border-radius: 5px;
+        text-decoration: none;
+        transition: background 0.3s;
+        font-weight: bold;
+    }
+
+    .enlace:hover {
+        background: #2980b9;
+        color: white;
+        text-decoration: none;
+        transform: translateY(-2px);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    .video-container {
+        flex: 1;
+        position: relative;
+        background: #000;
+        min-height: 400px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden; /* Para evitar que el video se salga */
+    }
+
+    .video-container::before {
+        content: '';
+        display: block;
+        padding-top: 56.25%; /* Relación de aspecto 16:9 */
+    }
+
+    .video-container video {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: contain; /* Cambiado de cover a contain */
+        display: block;
+        background: #000; /* Fondo negro para las barras laterales */
+    }
+
+    /* Mejoras para los controles del video */
+    .video-container video::-webkit-media-controls-panel {
+        background: linear-gradient(transparent, rgba(0, 0, 0, 0.7));
+        bottom: 0;
+        top: auto; /* Fuerza los controles al fondo */
+    }
+
+    .video-container video::-webkit-media-controls-play-button,
+    .video-container video::-webkit-media-controls-start-playback-button {
+        opacity: 1;
+        display: block;
+    }
+
+    /* Para Firefox */
+    .video-container video::-moz-media-controls-panel {
+        background: linear-gradient(transparent, rgba(0, 0, 0, 0.7));
+        bottom: 0;
+        top: auto;
+    }
+
+    /* Navegación Swiper */
+    .swiper-button-next,
+    .swiper-button-prev {
+        color: #3498db;
+        background: rgba(255, 255, 255, 0.9);
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        z-index: 10;
+    }
+
+    .swiper-button-next:after,
+    .swiper-button-prev:after {
+        font-size: 20px;
+    }
+
+    .swiper-pagination-bullet {
+        background: #3498db;
+        opacity: 0.5;
+        width: 12px;
+        height: 12px;
+    }
+
+    .swiper-pagination-bullet-active {
+        opacity: 1;
+    }
+
+    /* Responsive */
+    @media (max-width: 992px) {
+        .tarjeta-moderna {
+            flex-direction: column;
+            min-height: auto;
+        }
+        
+        .contenido {
+            padding: 30px;
+        }
+        
+        .video-container {
+            min-height: 300px;
+            order: -1; /* Poner el video arriba en móviles */
+        }
+        
+        .video-container::before {
+            padding-top: 56.25%; /* Mantener relación 16:9 */
+        }
+    }
+
+    @media (max-width: 768px) {
+        #carrusel-cuh-container {
+            padding: 30px 15px;
+        }
+        
+        .contenido {
+            padding: 20px;
+        }
+        
+        .contenido h1 {
+            font-size: 1.5rem;
+        }
+        
+        .contenido h4 {
+            font-size: 1.1rem;
+        }
+        
+        .video-container {
+            min-height: 250px;
+        }
+        
+        .swiper-button-next,
+        .swiper-button-prev {
+            display: none;
+        }
+    }
+
+    @media (max-width: 480px) {
+        .video-container {
+            min-height: 200px;
+        }
+        
+        .tarjeta-moderna {
+            margin: 10px;
+        }
+    }
+
+    /* Para asegurar que los controles estén en el fondo en todas las resoluciones */
+    @media (max-width: 1200px) and (min-width: 769px) {
+        .video-container video {
+            object-fit: contain;
+        }
+    }
+
+    /* Optimización para pantallas 4K */
+    @media (min-width: 1921px) {
+        .video-container video {
+            object-fit: contain;
+        }
+    }
