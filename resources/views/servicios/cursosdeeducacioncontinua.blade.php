@@ -84,63 +84,99 @@
     <!-- Sección de imágenes con texto: Cursos Vigentes -->
     <div class="row mt-5">
         <div class="col-lg-12 mt-4">
-            <h2 class="text-center" style="color: #000080;"><strong>¡Inscribete! Cursos Vigentes CUH 2025</strong></h2>
+            <h2 class="text-center" style="color: #000080;"><strong>¡Inscríbete! Cursos Vigentes CUH 2026</strong></h2>
             <br><br>
+
             <div class="cards-container">
-                <!-- Tarjeta 1 -->
+
+                <!-- Curso 1: Emprendimiento Formal en México -->
                 <div class="card course-image-card">
-                    <img src="assets/img/Cursos/Cursos14.webp" class="card-img-top" alt="Psicologia Forense CUH">
+                    <!-- Cambia el nombre del archivo si es distinto -->
+                    <img src="assets/img/Cursos/EmprendimientoFormal.webp" class="card-img-top" alt="Curso Emprendimiento Formal en México">
                     <div class="card-body">
-                        <h4 class="card-title"><strong>Psicologia Forense</strong></h4>
+                        <h4 class="card-title"><strong>Emprendimiento Formal en México</strong></h4>
                         <p class="card-text">
-                            🧠🔍 ¿Te interesa conocer cómo se aplica la psicología en contextos judiciales?
-                            <br>
-                            ¡Esta masterclass gratuita es para ti!
-                            <br>
-                            🔴 El cupo es limitado, no pierdas tu lugar, regístrate a través del código QR de la imagen 🔴
+                            🚀 Emprende de manera formal y haz crecer tu negocio en México 🇲🇽<br>
+                            ¿Tienes una idea de negocio o ya emprendiste y quieres hacerlo legal, rentable y sostenible?
+                            <br><br>
+
+                            Te guiamos paso a paso para:<br>
+                            ✅ Constituir tu empresa conforme a la ley<br>
+                            ✅ Aprender sobre el régimen fiscal SAS<br>
+                            ✅ Conocer obligaciones fiscales y laborales<br>
+                            ✅ Desarrollar un modelo de negocio sólido<br><br>
+
+                            🙌🏻 Uno de nuestros objetivos es que al finalizar el curso tu proyecto esté listo para darse de alta ante el SAT (sujeto a términos y condiciones).<br>
+                            🎯 Dirigido a emprendedores, profesionistas y pequeños empresarios.<br><br>
+
+                            🧑🏻‍🎓 Entrega de constancias DC-3 avalada por la STPS y constancia académica.<br>
+                            📲 Más información por WhatsApp:
+                            <a href="https://wa.me/5217712368557" target="_blank" rel="noopener">771 236 8557</a><br>
+                            ✨ Formaliza hoy tu emprendimiento y construye el futuro de tu negocio.
                         </p>
                     </div>
                 </div>
-                <!-- Tarjeta 2 -->
+
+                <!-- Curso 2: Preparación Examen de Admisión Educación Básica -->
                 <div class="card course-image-card">
-                    <img src="assets/img/Cursos/Cursos13.webp" class="card-img-top" alt="Curso Trauma y Apego">
+                    <!-- Cambia el nombre del archivo si es distinto -->
+                    <img src="assets/img/Cursos/ExamenAdmisionEducacionBasica.webp" class="card-img-top" alt="Curso Preparación Examen de Admisión a Educación Básica 2026-2027">
                     <div class="card-body">
-                        <h4 class="card-title"><strong>Curso Trauma y Apego</strong></h4>
+                        <h4 class="card-title"><strong>Preparación para el Examen de Admisión a la Educación Básica 2026–2027</strong></h4>
                         <p class="card-text">
-                            Descubre cómo superar los efectos del trauma y mejorar tus relaciones a través de un enfoque integral y compasivo.
-                            <br>
-                            En esta sesión descubrirás:
-                            <br>
-                            ✅ Cómo el trauma influye en tu vida y en tus relaciones <br>
-                            ✅ Identificar los tipos de apego y su impacto en tus relaciones <br>
-                            ✅ Estrategias prácticas para sanar <br>
-                            <br>
-                            📅 ¡Regístrate hoy y da el primer paso hacia tu bienestar emocional!
+                            Curso diseñado conforme a los lineamientos oficiales de <strong>USICAMM</strong>, dirigido a aspirantes que buscan
+                            mejorar su desempeño y aumentar sus posibilidades de obtener un nombramiento docente.
+                            <br><br>
+
+                            📘 El curso incluye:<br>
+                            ✔️ Contenidos alineados a la estructura oficial del examen<br>
+                            ✔️ <strong>Simulador de examen</strong> (diagnóstico y práctica real)<br>
+                            ✔️ Estrategias de resolución y manejo del tiempo<br>
+                            ✔️ Acompañamiento académico especializado<br>
+                            ✔️ Modalidad presencial<br><br>
+
+                            🗓️ <strong>Fecha de inicio:</strong> 28 de febrero<br>
+                            🕗 <strong>Horario:</strong> Sábados de 8:00 a 12:00 hrs<br>
+                            📍 <strong>Sede:</strong> Centro Universitario Hidalguense<br>
+                            ⚠️ Inscripciones limitadas<br><br>
+
+                            📲 Informes por WhatsApp:
+                            <a href="https://wa.me/5217711392240" target="_blank" rel="noopener">771 139 2240</a><br>
+                            Prepárate con base en criterios oficiales, evalúate con un simulador real y fortalece tu oportunidad de ingreso.
                         </p>
                     </div>
                 </div>
-                <!-- Tarjeta 3 -->
+
+                <!-- Curso 3: Excel Inicial con IA -->
                 <div class="card course-image-card">
-                    <img src="assets/img/Cursos/cursoPython.webp" class="card-img-top" alt="Introducción a Visión Artificial con Python">
+                    <!-- Cambia el nombre del archivo si es distinto -->
+                    <img src="assets/img/Cursos/ExcelInicialIA.webp" class="card-img-top" alt="Curso Excel Inicial con IA">
                     <div class="card-body">
-                        <h4 class="card-title"><strong>Introducción a Visión Artificial con Python</strong></h4>
+                        <h4 class="card-title"><strong>Excel Inicial con IA</strong></h4>
                         <p class="card-text">
-                            ¿Te imaginas crear sistemas que vean y entiendan imágenes como lo hace el ojo humano? <br>
-                            A lo largo del curso descubriras:
-                            <br>
-                            ✅ Cómo funciona la visión artificial y por qué está revolucionando el mundo. <br>
-                            ✅ Las herramientas clave de Python (OpenCV, TensorFlow) que usan las grandes empresas. <br>
-                            ✅ Tu primer código para detectar objetos en imágenes. <br>
-                            <br>
-                            ¿Para quién es? <br>
-                            Programadores que quieran entrar al mundo del AI.
-                            Estudiantes de ingeniería o data science.
+                            🙌🏻 ¡Inicia el 2026 cumpliendo tus metas profesionales! 🚀<br>
+                            Este 17 de enero arranca nuestro curso diseñado para quienes desean dominar Excel desde cero
+                            y potenciarlo con inteligencia artificial.
+                            <br><br>
+
+                            📅 <strong>Modalidad:</strong> Presencial (todos los sábados)<br>
+                            ⏰ <strong>Horario:</strong> 11:00 a.m. – 2:00 p.m.<br>
+                            📍 <strong>Ubicación:</strong> Instalaciones del Centro Universitario Hidalguense<br><br>
+
+                            Al finalizar recibirás:<br>
+                            ✅ Constancia STPS DC-3 de habilidades laborales<br>
+                            ✅ Constancia académica<br><br>
+
+                            Aprenderás de forma práctica, clara y dinámica, con habilidades aplicables desde la primera clase.
+                            Ideal para principiantes, actualización o integración de IA al trabajo diario.
                         </p>
                     </div>
                 </div>
+
             </div>
         </div>
     </div>
+
 
     <!-- Cursos Terminados -->
     <div class="row mt-5">
@@ -148,7 +184,9 @@
             <h2 class="text-center" style="color: #000080;">Nuestros Ultimos Cursos</h2>
             <h3 class="text-center" style="color: #000080;">¡Prepara tu futuro profesional con confianza y aumenta tus oportunidades de éxito!</h3>
             <br><br>
+
             <div class="cards-container">
+
                 <!-- Curso Terminado 1 -->
                 <div class="card course-image-card">
                     <span class="badge-curso-terminado">Curso Terminado</span>
@@ -161,14 +199,15 @@
                             ¿Sabías que puedes obtener tu certificado de bachillerato en solo unos meses? 📚💪 ¡Es cierto! La preparatoria del Centro Universitario Hidalguense lanza el curso de Acredi-bach para que puedas prepararte y aprobar tu examen Ceneval.
                             <br>
                             ¿Quiénes pueden participar? 🤔
-                            <ul>
-                                <li>Mayores de 15 años</li>
-                                <li>Personas que desean obtener su certificado de bachillerato</li>
-                                <li>Quienes buscan una oportunidad para mejorar su educación y futuro laboral</li>
-                            </ul>
                         </p>
+                        <ul>
+                            <li>Mayores de 15 años</li>
+                            <li>Personas que desean obtener su certificado de bachillerato</li>
+                            <li>Quienes buscan una oportunidad para mejorar su educación y futuro laboral</li>
+                        </ul>
                     </div>
                 </div>
+
                 <!-- Curso Terminado 2 -->
                 <div class="card course-image-card">
                     <span class="badge-curso-terminado">Curso Terminado</span>
@@ -182,6 +221,7 @@
                         </p>
                     </div>
                 </div>
+
                 <!-- Curso Terminado 3 -->
                 <div class="card course-image-card">
                     <span class="badge-curso-terminado">Curso Terminado</span>
@@ -193,6 +233,7 @@
                         </p>
                     </div>
                 </div>
+
                 <!-- Curso Terminado 4 -->
                 <div class="card course-image-card">
                     <span class="badge-curso-terminado">Curso Terminado</span>
@@ -204,6 +245,7 @@
                         </p>
                     </div>
                 </div>
+
                 <!-- Curso Terminado 5 -->
                 <div class="card course-image-card">
                     <span class="badge-curso-terminado">Curso Terminado</span>
@@ -215,6 +257,7 @@
                         </p>
                     </div>
                 </div>
+
                 <!-- Curso Terminado 6 -->
                 <div class="card course-image-card">
                     <span class="badge-curso-terminado">Curso Terminado</span>
@@ -226,6 +269,7 @@
                         </p>
                     </div>
                 </div>
+
                 <!-- Curso Terminado 7 -->
                 <div class="card course-image-card">
                     <span class="badge-curso-terminado">Curso Terminado</span>
@@ -237,6 +281,7 @@
                         </p>
                     </div>
                 </div>
+
                 <!-- Curso Terminado 8 -->
                 <div class="card course-image-card">
                     <span class="badge-curso-terminado">Curso Terminado</span>
@@ -248,6 +293,7 @@
                         </p>
                     </div>
                 </div>
+
                 <!-- Curso Terminado 9 -->
                 <div class="card course-image-card">
                     <span class="badge-curso-terminado">Curso Terminado</span>
@@ -259,6 +305,7 @@
                         </p>
                     </div>
                 </div>
+
                 <!-- Curso Terminado 10 -->
                 <div class="card course-image-card">
                     <span class="badge-curso-terminado">Curso Terminado</span>
@@ -270,6 +317,7 @@
                         </p>
                     </div>
                 </div>
+
                 <!-- Curso Terminado 11 -->
                 <div class="card course-image-card">
                     <span class="badge-curso-terminado">Curso Terminado</span>
@@ -281,6 +329,7 @@
                         </p>
                     </div>
                 </div>
+
                 <!-- Curso Terminado 12 -->
                 <div class="card course-image-card">
                     <span class="badge-curso-terminado">Curso Terminado</span>
@@ -292,6 +341,7 @@
                         </p>
                     </div>
                 </div>
+
                 <!-- Curso Terminado 13 -->
                 <div class="card course-image-card">
                     <span class="badge-curso-terminado">Curso Terminado</span>
@@ -303,6 +353,50 @@
                         </p>
                     </div>
                 </div>
+
+                <!-- ===================== -->
+                <!-- NUEVAS INTEGRACIONES -->
+                <!-- ===================== -->
+
+                <!-- Curso Terminado 14 -->
+                <div class="card course-image-card">
+                    <span class="badge-curso-terminado">Curso Terminado</span>
+                    <img src="assets/img/Cursos/Cursos14.webp" class="card-img-top" alt="Psicologia Forense CUH">
+                    <div class="card-body">
+                        <h4 class="card-title"><strong>Psicologia Forense</strong></h4>
+                        <p class="card-text">
+                            Este curso abordó la aplicación de la psicología en contextos judiciales, incluyendo fundamentos del peritaje,
+                            análisis de conductas y comprensión de procesos legales para la intervención profesional.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Curso Terminado 15 -->
+                <div class="card course-image-card">
+                    <span class="badge-curso-terminado">Curso Terminado</span>
+                    <img src="assets/img/Cursos/Cursos13.webp" class="card-img-top" alt="Curso Trauma y Apego">
+                    <div class="card-body">
+                        <h4 class="card-title"><strong>Curso Trauma y Apego</strong></h4>
+                        <p class="card-text">
+                            En este curso se exploró cómo el trauma influye en la vida y las relaciones, así como los tipos de apego y su impacto.
+                            Se trabajaron estrategias prácticas para promover la sanación emocional y el bienestar.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Curso Terminado 16 -->
+                <div class="card course-image-card">
+                    <span class="badge-curso-terminado">Curso Terminado</span>
+                    <img src="assets/img/Cursos/cursoPython.webp" class="card-img-top" alt="Introducción a Visión Artificial con Python">
+                    <div class="card-body">
+                        <h4 class="card-title"><strong>Introducción a Visión Artificial con Python</strong></h4>
+                        <p class="card-text">
+                            Este curso introdujo los fundamentos de la visión artificial con Python, utilizando herramientas como OpenCV y TensorFlow.
+                            Los participantes realizaron ejercicios prácticos, incluyendo detección de objetos en imágenes y conceptos base de IA.
+                        </p>
+                    </div>
+                </div>
+
             </div>
         </div>
     </div>

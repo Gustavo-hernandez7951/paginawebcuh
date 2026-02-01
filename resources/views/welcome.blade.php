@@ -391,6 +391,9 @@
                                         <img src="assets/img/Promocion/Curso.webp" alt="Promoción CUH">
                                     </div>
                                     <div class="carousel-slide active">
+                                        <img src="assets/img/Cursos/Diplomado1.webp" alt="Promoción CUH">
+                                    </div>
+                                    <div class="carousel-slide active">
                                         <img src="assets/img/Principal/Preparatoria.webp" alt="Promoción CUH">
                                     </div>
                                     <div class="carousel-slide active">
@@ -407,6 +410,9 @@
                                     </div>
                                     <div class="carousel-slide">
                                         <img src="assets/img/Promocion/Doctorado.webp" alt="Promoción CUH">
+                                    </div>
+                                    <div class="carousel-slide active">
+                                        <img src="assets/img/Cursos/ExamenAdmisionEducacionBasica.webp" alt="Promoción CUH">
                                     </div>
                                 </div>
                                 <!-- Flechas -->
@@ -509,42 +515,38 @@
                     <!-- PESTAÑA 4: CURSOS -->
                     <div class="tab-content" id="tab4">
                         <div class="tab-content-grid">
-                            
-                            <!-- Imagen del Curso -->
+
+                            <!-- Imagen del Diplomado -->
                             <div class="tab-image-large carousel-container">
-                                <img src="assets/img/Promocion/595170947.jpg" alt="Curso Excel Inicial CUH" class="tab-image-large">
+                                <!-- Imagen principal (elige una) -->
+                                <img src="assets/img/Cursos/Diplomado1.webp" alt="Diplomado Las Partes ante el Código Nacional de Procedimientos Civiles y Familiares" class="tab-image-large">
                             </div>
 
-                            <!-- Información del Curso -->
+                            <!-- Información del Diplomado -->
                             <div class="tab-content-text">
-                                <h3>Curso Excel Inicial</h3>
+                                <h3>Diplomado Presencial</h3>
+                                <h4 style="margin-top: 6px;">Las Partes ante el Código Nacional de Procedimientos Civiles y Familiares</h4>
 
-                                <p>Aprende las bases de Excel de manera práctica, ideal para estudiantes y profesionistas que desean mejorar sus habilidades digitales.</p>
+                                <p>
+                                    Actualízate en el nuevo sistema de procedimientos civiles y familiares a través de un enfoque práctico y profesional.
+                                </p>
 
                                 <ul class="feature-list">
-                                    <li><strong>Inicio:</strong> 17 de enero</li>
-                                    <li><strong>Finaliza:</strong> 28 de febrero</li>
-                                    <li><strong>Días del curso:</strong> 17, 24 y 31 de enero; 7, 14, 21 y 28 de febrero</li>
-                                    <li><strong>Total de horas:</strong> 20 horas</li>
-                                    <li><strong>Instructor:</strong> Mtro. Juan José Vázquez Retta</li>
+                                    <li><strong>Fechas:</strong> Del 28 de febrero al 16 de mayo de 2026</li>
+                                    <li><strong>Modalidad:</strong> Presencial sabatina</li>
+                                    <li><strong>Duración:</strong> 66 horas de formación</li>
+                                    <li><strong>¿Quiénes pueden inscribirse?</strong> Estudiantes de Derecho, abogadas, abogados y público interesado en la actualización jurídica</li>
                                 </ul>
 
-                                <!-- Botón de Contacto -->
-                                <a href="https://wa.me/5217712368557?text=Hola%20quiero%20información%20del%20Curso%20de%20Excel%20Inicial"
-                                target="_blank" class="tabs-btn-primary">
+                                <!-- Botón de Contacto (correo) -->
+                                <a href="mailto:promocion@cuh.mx?subject=Información%20Diplomado%20Las%20Partes%20ante%20el%20Código%20Nacional%20de%20Procedimientos%20Civiles%20y%20Familiares&body=Hola,%20quiero%20información%20sobre%20el%20Diplomado%20Presencial%20%22Las%20Partes%20ante%20el%20Código%20Nacional%20de%20Procedimientos%20Civiles%20y%20Familiares%22.%20Gracias."
+                                class="tabs-btn-primary">
                                 📩 Solicita información
                                 </a>
-
-                                <!-- Datos adicionales -->
-                                <div class="contact-info">
-                                    <p><strong>Educación Continua</strong></p>
-                                    <p>📞 7712368557</p>
-                                    <p>🌐 www.cuh.edu.mx</p>
-                                </div>
                             </div>
-
                         </div>
                     </div>
+
 
                 </div>
             </div>
