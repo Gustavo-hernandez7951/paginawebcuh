@@ -582,7 +582,7 @@
                 {{ csrf_field() }}
                 <!-- Encabezado -->
                 <div class="modal-header">
-                    <h5 class="modal-title" style="color: #000080;">Registro</h5>
+                    <h5 class="modal-title" style="color: #000080;">Registro para cursos de Educación Continua</h5>
                     <span style="margin-left: auto;">obligatorio *</span>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
@@ -605,11 +605,11 @@
                     </div>
                     <!-- Email -->
                     <div class="col form-group">
-                        <input id="email" type="email" class="form-control" placeholder="Correo *" name="email" value="" onkeyup="minusculas(this);" required>
+                        <input id="email" type="email" class="form-control" placeholder="Correo Electrónico *" name="email" value="" onkeyup="minusculas(this);" required>
                     </div>
                     <!-- Teléfono -->
                     <div class="col form-group">
-                        <input id="telefono" type="tel" class="form-control" placeholder="Teléfono (10 dígitos) *" name="telefono" value="" pattern="[0-9]{10}" required>
+                        <input id="telefono" type="tel" class="form-control" placeholder="Número de Teléfono (10 dígitos) *" name="telefono" value="" pattern="[0-9]{10}" required>
                     </div>
                     <!-- Edad -->
                     <div class="col form-group">
@@ -617,12 +617,12 @@
                     </div>
                     <!-- Temática -->
                     <div class="col form-group">
-                        <input id="tematica" type="text" placeholder="Temática sugerida" class="form-control" name="tematica" value="" onkeyup="mayusculas(this);" autocomplete="tematica" autofocus>
+                        <input id="tematica" type="text" placeholder="Propuesta para el siguiente curso *" class="form-control" name="tematica" value="" onkeyup="mayusculas(this);" required autocomplete="tematica" autofocus>
                     </div>
                     <!-- Grupo -->
                     <div class="col form-group">
                         <select id="grupo" class="form-control" name="grupo" required>
-                            <option value="" disabled selected hidden>Grupo *</option>
+                            <option value="" disabled selected hidden>Selecciona tu Grupo *</option>
                             @foreach($curso->grupos()->where('idcurso', $curso->idcurso)->where('status_grupo', 'VI')->orderBy('idgrupo', 'asc')->get() as $g)
                                 <option value="{{ $g->idgrupo }}">{{ $g->idgrupo }}</option>
                             @endforeach
@@ -630,21 +630,36 @@
                     </div>
                     <!-- Términos y condiciones -->
                     <div class="col form-group">
-                        <label for="info"><strong>Términos y condiciones</strong></label>
-                        <style> textarea { text-align: justify; } </style>
-                        <textarea class="form-control" readonly="readonly" id="exampleFormControlTextarea1" rows="4" disabled>
-                            El Centro Universitario Hidalguense, también denominado CUH, se compromete a impartir programas de capacitación y formación continua de calidad, con ponentes especialistas en la materia de la que se trata.
-                            Es compromiso del usuario participante del curso dirigirse con respeto y honestidad en las actividades inherentes al programa de capacitación contratado.
-                            No hay devoluciones ni cancelaciones, habiendo excepción cuando, por causas imputables a la institución, no se aperture el grupo el día y en la hora señalada en la publicidad, en tal caso, es derecho del usuario solicitar el reembolso correspondiente.
-                            El CUH se reserva el derecho de aplicar baja del curso cuando:
-                            1. Exista un comportamiento no apropiado, inmoral u ofensivo, dentro o fuera del aula virtual o presencial hacia el ponente, compañeros del curso, o personal administrativo de la institución.
-                            2. Se incumpla en el pago total, o de alguna parcialidad previamente acordada.
-                            El usuario deberá cumplir con los criterios de evaluación establecidos para cada curso.
-                            Estas condiciones son de aplicabilidad general.
-                            Cualquier duda, comentario o inconformidad referente al servicio debe hacerse enviando mensaje al correo cursos@cuh.mx
-                            Después de leer esta sección manifiesto mi conformidad con las políticas y condiciones establecidas por el CUH en la actividad contratada. Acepto el servicio ofertado por el área de cursos del Centro Universitario Hidalguense.
-                        </textarea>
+                        <label><strong>Términos y condiciones</strong></label>
+
+                        <style>
+                            textarea {
+                                white-space: pre-line;
+                                text-align: justify;
+                                line-height: 1.4;
+                            }
+                        </style>
+
+
+                            <textarea class="form-control" readonly rows="6">
+                        El Centro Universitario Hidalguense, también denominado CUH, se compromete a impartir programas de capacitación y formación continua de calidad.
+
+                        Es compromiso del usuario conducirse con respeto.
+
+                        No hay devoluciones ni cancelaciones.
+
+                        El CUH se reserva el derecho de baja cuando:
+                        1. Exista comportamiento inapropiado.
+                        2. Se incumpla el pago.
+
+                        El usuario deberá cumplir los criterios de evaluación.
+
+                        Contacto: cursos@cuh.mx
+
+                        Manifiesto mi conformidad con las políticas.
+                            </textarea>
                     </div>
+
                     <!-- Checkboxes -->
                     <div class="col form-group">
                         <input id="info" type="checkbox" class="form-control-check-input" name="info" value="1">
