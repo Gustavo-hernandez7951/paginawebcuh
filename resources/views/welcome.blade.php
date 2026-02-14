@@ -403,16 +403,13 @@
                                         <img src="assets/img/Principal/Maestria.webp" alt="Promoción CUH">
                                     </div>
                                     <div class="carousel-slide">
-                                        <img src="assets/img/Promocion/Excel.webp" alt="Promoción CUH">
-                                    </div>
-                                    <div class="carousel-slide">
-                                        <img src="assets/img/Promocion/Emprendimiento.webp" alt="Promoción CUH">
-                                    </div>
-                                    <div class="carousel-slide">
                                         <img src="assets/img/Promocion/Doctorado.webp" alt="Promoción CUH">
                                     </div>
                                     <div class="carousel-slide active">
                                         <img src="assets/img/Cursos/ExamenAdmisionEducacionBasica.webp" alt="Promoción CUH">
+                                    </div>
+                                    <div class="carousel-slide active">
+                                        <img src="assets/img/Cursos/Maestria.webp" alt="Promoción CUH">
                                     </div>
                                 </div>
                                 <!-- Flechas -->
