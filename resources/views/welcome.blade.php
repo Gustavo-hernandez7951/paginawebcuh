@@ -366,6 +366,14 @@
             </div>
         </div>
 
+        <!-- Sección para Mostrar el contenido de la Gaceta -->
+        <div class="gaceta-container">
+            <h2 class="gaceta-title">¡Da un vistazo a nuestra Gaceta!</h2>
+            <div class="gaceta-content">
+                <iframe src="https://publuu.com/flip-book/1078403/2403386" seamless="seamless" scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen="true"></iframe>
+            </div>
+        </div>
+
         <!-- Sección de Pestañas con Imágenes Destacadas -->
         <div class="tabs-design-container">
             <div class="tabs-design-title">
@@ -407,9 +415,6 @@
                                     </div>
                                     <div class="carousel-slide active">
                                         <img src="assets/img/Cursos/ExamenAdmisionEducacionBasica.webp" alt="Promoción CUH">
-                                    </div>
-                                    <div class="carousel-slide active">
-                                        <img src="assets/img/Cursos/Maestria.webp" alt="Promoción CUH">
                                     </div>
                                 </div>
                                 <!-- Flechas -->
@@ -513,37 +518,37 @@
                     <div class="tab-content" id="tab4">
                         <div class="tab-content-grid">
 
-                            <!-- Imagen del Diplomado -->
+                            <!-- Imagen del evento -->
                             <div class="tab-image-large carousel-container">
-                                <!-- Imagen principal (elige una) -->
-                                <img src="assets/img/Cursos/Diplomado1.webp" alt="Diplomado Las Partes ante el Código Nacional de Procedimientos Civiles y Familiares" class="tab-image-large">
+                                <img src="assets/img/Cursos/Talent_11zon.webp" alt="Participación del Centro Universitario Hidalguense en Talent Land México 2026" class="tab-image-large">
                             </div>
 
-                            <!-- Información del Diplomado -->
+                            <!-- Información del evento -->
                             <div class="tab-content-text">
-                                <h3>Diplomado Presencial</h3>
-                                <h4 style="margin-top: 6px;">Las Partes ante el Código Nacional de Procedimientos Civiles y Familiares</h4>
+                                <h3>Talent Land México 2026</h3>
+                                <h4 style="margin-top: 6px;">✨ El talento nos mueve y nos conecta ✨</h4>
 
                                 <p>
-                                    Actualízate en el nuevo sistema de procedimientos civiles y familiares a través de un enfoque práctico y profesional.
+                                    El Centro Universitario Hidalguense tiene el honor de asistir y participar en las actividades de Talent Land México, uno de los encuentros más importantes de innovación, creatividad y desarrollo tecnológico en el país.
                                 </p>
 
                                 <ul class="feature-list">
-                                    <li><strong>Fechas:</strong> Del 28 de febrero al 16 de mayo de 2026</li>
-                                    <li><strong>Modalidad:</strong> Presencial sabatina</li>
-                                    <li><strong>Duración:</strong> 66 horas de formación</li>
-                                    <li><strong>¿Quiénes pueden inscribirse?</strong> Estudiantes de Derecho, abogadas, abogados y público interesado en la actualización jurídica</li>
+                                    <li><strong>Fechas:</strong> Del 7 al 9 de abril de 2026</li>
+                                    <li><strong>Sede:</strong> Expo Santa Fe, Ciudad de México</li>
+                                    <li><strong>Dirigido a:</strong> Comunidad universitaria y público en general</li>
+                                    <li><strong>Objetivo:</strong> Formar parte de una experiencia única donde el conocimiento, las ideas y el talento se unen para transformar el futuro</li>
                                 </ul>
 
-                                <!-- Botón de Contacto (correo) -->
-                                <a href="mailto:promocion@cuh.mx?subject=Información%20Diplomado%20Las%20Partes%20ante%20el%20Código%20Nacional%20de%20Procedimientos%20Civiles%20y%20Familiares&body=Hola,%20quiero%20información%20sobre%20el%20Diplomado%20Presencial%20%22Las%20Partes%20ante%20el%20Código%20Nacional%20de%20Procedimientos%20Civiles%20y%20Familiares%22.%20Gracias."
-                                class="tabs-btn-primary">
-                                📩 Solicita información
+                                <p>
+                                    📲 Para más información, visita nuestra página de Facebook y mantente al tanto de todos los detalles.
+                                </p>
+
+                                <a href="https://www.facebook.com/share/p/1SmzCBTf8L/" class="tabs-btn-primary">
+                                    Facebook
                                 </a>
                             </div>
                         </div>
                     </div>
-
 
                 </div>
             </div>
