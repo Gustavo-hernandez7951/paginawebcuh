@@ -66,11 +66,9 @@
                                                 <i class="fas fa-user-check"></i> INFORMACIÓN
                                             </button>
                                         </div>
-                                        <div class="col-md-12 col-lg-12 form-group">
-                                            <button type="button" class="btn btn-outline-primary btn-block" data-toggle="modal" data-target="#registro{{ $c->idcurso }}">
-                                                <i class="fas fa-user-check"></i> REGISTRARSE
-                                            </button>
-                                        </div>
+<button type="button" class="btn btn-outline-primary btn-block" data-toggle="modal" data-target="#registro{{ $c->idcurso }}">
+    <i class="fas fa-user-check"></i> REGISTRARSE
+</button>
                                     </div>
                                 </td>
                             </tr>
